@@ -1,0 +1,14 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Backend
+backend/.env
+backend/vendor/
+
+# OS / éditeurs
+.DS_Store
+*.log
+.idea/
+.vscode/
