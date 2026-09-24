@@ -223,7 +223,7 @@ Fonctionnalité complémentaire (non demandée explicitement, mais dans l'esprit
 du sujet qui invite à proposer des ajouts pertinents) :
 
 - **Côté admin** : une notification est créée automatiquement à chaque
-  nouvelle demande de réservation (table `notifications`). Une cloche 🔔
+  nouvelle demande de réservation (table `notifications`). Une cloche 
   dans le back-office affiche le nombre non lu, sondée toutes les 15s, avec
   un menu déroulant permettant de marquer comme lu et d'ouvrir la
   réservation concernée.
@@ -239,7 +239,7 @@ du sujet qui invite à proposer des ajouts pertinents) :
   `/suivi`, et la référence est envoyée par email dès la création si un
   email a été fourni.
 
-> ⚠️ **Limitation connue** : l'envoi d'email utilise `mail()` natif de PHP,
+>  **Limitation connue** : l'envoi d'email utilise `mail()` natif de PHP,
 > qui nécessite un serveur SMTP/sendmail configuré sur la machine. Sous
 > XAMPP/Windows en local, ça ne fonctionne pas sans configuration
 > supplémentaire. Un échec d'envoi est silencieux et n'interrompt jamais le
